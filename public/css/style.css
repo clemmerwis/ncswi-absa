@@ -1,1 +1,94 @@
+.site-footer {
+  position: relative;
+}
+.site-footer:after {
+  content: "";
+  display: inline-block;
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  background: white;
+  z-index: -10;
+  top: 0;
+}
 
+.main {
+  position: relative;
+}
+.main:after {
+  content: "";
+  display: inline-block;
+  width: 130%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -15%;
+  background: white;
+  z-index: -10;
+}
+
+.bluegradtext {
+  font-weight: 900;
+  background: linear-gradient(120deg, #106eea 5%, #2064C5 90%, #001935);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroholder:after {
+  content: "";
+  display: inline-block;
+  max-height: 426px;
+  width: 100%;
+  background-image: linear-gradient(120deg, rgba(100, 100, 100, 0.6) 30%, rgba(255, 255, 255, 0.3));
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.heroholder .hero-title {
+  font-size: clamp(18px, 3vw, 40px);
+  font-weight: 600;
+  line-height: 1;
+  font-family: "Poppins", sans-serif;
+}
+.heroholder .hero-text {
+  color: black;
+  line-height: 1.6;
+  max-width: 90ch;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+.heroholder .btn-get-started {
+  font-family: "Roboto", sans-serif;
+  text-transform: Capitalize;
+  font-weight: 900;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #106eea;
+  border-radius: 5em;
+  border: 1px solid black;
+}
+.heroholder small {
+  font-weight: 900;
+  color: black;
+}
+.heroholder .hero-two {
+  background: #00a800;
+}
+.heroholder .hero-three {
+  background: #b91d1d;
+}
+.heroholder .btn-get-started:hover {
+  background: #247cf0;
+}
+.heroholder .hero-two:hover {
+  background: #00b300;
+  color: white;
+}
+.heroholder .hero-three:hover {
+  background: #ca1f1f;
+}

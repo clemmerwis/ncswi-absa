@@ -3,5 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('layouts.app');
+    return view('pages.index');
+});
+
+Route::get('/usermenu', function () {
+    return view('pages.usermenu');
 });
