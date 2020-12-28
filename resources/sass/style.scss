@@ -27,6 +27,12 @@
     }
 }
 
+.hero .hero-holder {
+    background: linear-gradient(to left, rgba(240, 245, 250, 0.1) 30%, rgba(1, 100, 180, 0.6)), url(http://localhost/assets/img/Optimized-proud.jpg) fixed no-repeat;
+    background-size: cover;
+    background-position: right 0;
+}
+
 .bluegradtext {
     font-weight: 900;
     background: linear-gradient(120deg, #106eea 5%, #2064C5 90%, #001935); 

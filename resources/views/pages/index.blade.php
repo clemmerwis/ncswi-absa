@@ -1,7 +1,7 @@
 <x-layout>
 
     <x-content>
-        <div class="heroholder relative w-full">
+        <div class="hero relative w-full">
             {{-- <div class="herotext-box absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-7">
                 <h2 class="hero-title mb-6">Where do I begin?</h2>
                 <p class="hero-text text-sm mb-12">
@@ -23,7 +23,10 @@
                     </div>
                 </div>
             </div> --}}
-            <img style="height: auto;" src="{{ asset('assets/img/Optimized-proud.jpg') }}" class="object-cover w-full rounded-t-lg">
+            <div class="w-full h-full hero-holder">
+                Message
+            </div>
+            {{-- <img style="height: auto;" src="{{ asset('assets/img/Optimized-proud.jpg') }}" class="object-cover w-full rounded-t-lg"> --}}
         </div>
         
     </x-content>
