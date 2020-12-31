@@ -53,6 +53,12 @@
   }
 }
 
+/* Flip on the Y axis */
+.flip-vertical {
+    transform: rotateY(90deg);
+}
+
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -185,9 +191,9 @@
     max-width: 78ch;
 }
 
-.hero-cta-box {
-    max-width: 78ch;
-}
+// .hero-cta-box {
+//     max-width: 78ch;
+// }
 
 .hero-text {
     color: black;

@@ -1,3 +1,8 @@
+/* Flip on the Y axis */
+.flip-vertical {
+  transform: rotateY(90deg);
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -94,10 +99,6 @@
 
 .herobox {
   border-radius: 1rem;
-  max-width: 78ch;
-}
-
-.hero-cta-box {
   max-width: 78ch;
 }
 

@@ -13,6 +13,7 @@ module.exports = {
         maxWidth: {
             '1/4': '25%',
             '1/2': '50%',
+            '2/3': '66.666667%',
             '3/4': '75%',
             '9/10': '90%',
             '95': '95%'
@@ -33,8 +34,12 @@ module.exports = {
             lhtblue: '#2064C5',
             highlightblue: '#106eea',
             greensuccess: '#00cc00',
-            redfail: '#ca1f1f'
+            redfail: '#ca1f1f',
+            playfulblue: '#d0e5fb'
         },
+        listStyleType: {
+            alpha: 'lower-alpha'
+        }
     },
     variants: {
         extend: {},
