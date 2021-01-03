@@ -37,19 +37,6 @@
                     <x-dtopleft-navitem class="pl-8" route="usermenu">User Menu</x-dtopleft-navitem>
                     <x-dtopleft-navitem class="pl-8" route="home">Job Board</x-dtopleft-navitem>
                     <x-dtopleft-navitem class="pl-8" route="home">Store</x-dtopleft-navitem>
-
-                    {{-- <li class="py-4 list-none">
-                        <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out {{ Request::is('/') ? 'text-highlightblue' : '' }}" href="/">Home</a>
-                    </li>
-                    <li class="py-4 pl-8 list-none">
-                        <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="/usermenu">User Menu</a>
-                    </li>
-                    <li class="py-4 pl-8 list-none">
-                        <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">Job Board</a>
-                    </li>
-                    <li class="py-4 pl-8 list-none">
-                        <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">Store</a>
-                    </li> --}}
                 </ul>
 
                 <div class="hidden md:flex items-center">

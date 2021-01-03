@@ -27,7 +27,7 @@
     </style>
 </head>
 
-<body #id="body" class="font-family-opensans antialiased overflow-x-hidden">
+<body id="body" class="font-family-opensans antialiased overflow-x-hidden">
 
     @include('partials/header')
 

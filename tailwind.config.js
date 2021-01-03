@@ -38,7 +38,8 @@ module.exports = {
             playfulblue: '#d0e5fb'
         },
         listStyleType: {
-            alpha: 'lower-alpha'
+            alpha: 'lower-alpha',
+            disc: 'disc'
         }
     },
     variants: {
