@@ -1,0 +1,12 @@
+.site-footer {
+    position: relative;
+    &:after {
+        content: '';
+        display: inline-block;
+        width: 93vw;
+        height: 1.5px;
+        position: absolute;
+        background: white;
+        top: 0;
+    }
+}

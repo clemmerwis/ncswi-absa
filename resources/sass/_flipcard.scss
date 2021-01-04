@@ -36,10 +36,13 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+    .flip-icon i {
+        color: $highlightBlue;
+    }
 }
 
 .flip-card-back {
-    background: linear-gradient(#1F67DE, #1F67DE);
+    background: linear-gradient($bootstrapBlue, $bootstrapBlue);
     color: white;
     transform: rotateY(180deg);
     display: grid;

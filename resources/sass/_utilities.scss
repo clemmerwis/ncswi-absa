@@ -1,0 +1,15 @@
+
+.list-lower-alpha {
+    list-style-type: lower-alpha;
+}
+
+.list-lower-roman {
+    list-style-type: lower-roman;
+}
+
+.bluegradtext {
+    font-weight: 900;
+    background: linear-gradient(120deg, #106eea 5%, #2064C5 90%, #001935); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

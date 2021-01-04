@@ -1,6 +1,8 @@
 <header class="shadow border-bottom relative">
+
     <div class="topbar">
         <div class="container mx-auto text-white flex items-center justify-between px-6 md:px-0">
+
             <div class="flex contact-info py-2">
                 <div class="inline-flex text-sm">
                     <i class="icofont-envelope"></i> <a class="text-sm hover:underline" href="mailto:office@absa.com">contact@example.com</a>
@@ -9,6 +11,7 @@
                     <i class="icofont-phone pl-8"></i> +1 5589 55488 55
                 </div>
             </div>
+
             <div class="flex py-2 text-sm">
                 <div class="login border-r pr-6">
                     <a href="#">Login</a>
@@ -17,6 +20,7 @@
                     <a href="#" class="facebook"><i class="icofont-facebook">f</i></a>
                 </div>
             </div>
+
         </div>
     </div>
 
@@ -79,7 +83,7 @@
                     </svg>
                 </button>
 
-                <div :class="isOpen ? 'show' : 'hidden'" @click.away="isOpen = false" class="rightmenu-mobile absolute top-0 left-0 w-full bg-black mt-8 rounded-b">
+                <div :class="isOpen ? 'show' : 'hidden'" @click.away="isOpen = false" class="transition duration-300 ease-in-out rightmenu-mobile absolute top-0 left-0 w-full bg-black mt-8 rounded-b">
                     <ul class="flex justify-end">
                         <li class="py-3 list-none">
                             <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">About</a>
