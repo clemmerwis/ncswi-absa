@@ -18,6 +18,9 @@ module.exports = {
             '9/10': '90%',
             '95': '95%'
         },
+        maxHeight: {
+            '95': '95%',
+        },
         colors: {
             transparent: 'transparent',
             current: 'currentColor',
