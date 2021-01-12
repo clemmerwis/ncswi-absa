@@ -12,7 +12,7 @@
         </div>
     </div>
 
-    <main class="main border-b">
+    <main id="home" class="main border-b">
         
         {{-- exam --}}
         <x-section class="bg-bluegray">

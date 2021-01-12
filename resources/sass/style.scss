@@ -1,9 +1,11 @@
-@import "mixins";
 @import "colors";
+@import "mixins";
 @import "preloader";
+@import "custom";
 @import "utilities";
+@import "sponsorbar";
+@import "section";
 @import "header";
 @import "hero";
-@import "footer";
-@import "custom";
 @import "flipcard";
+@import "footer";

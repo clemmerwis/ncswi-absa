@@ -42,6 +42,28 @@
     transform: rotate(360deg);
   }
 }
+#body {
+  background: linear-gradient(120deg, #fafafa, #fdfdfd, #fff, #fdfdfd, #fafafa);
+  background: linear-gradient(120deg, #fff, #fefeff, #FBFAFA, #fff);
+}
+
+#home.main {
+  padding-top: 1200px;
+}
+@media (min-width: 768px) {
+  #home.main {
+    padding-top: 550px;
+  }
+}
+
+.missionbg {
+  background: url(http://localhost/assets/img/ABSA-LOGO-Plane-NON-VECTOR.png), linear-gradient(black, black);
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .list-lower-alpha {
   list-style-type: lower-alpha;
 }
@@ -112,6 +134,42 @@
   margin-right: 0.01em;
 }
 
+.clients {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #f6f9fe;
+}
+
+.clients img {
+  max-width: 80%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  transition: transform 0.6s;
+}
+
+.clients img:hover {
+  transform: scale(1.1);
+}
+
+.section-title .sub {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #e7f1fd;
+  color: #106eea;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.section-title .header {
+  font-size: 32px;
+  font-weight: 700;
+}
+
 .topbar {
   background: linear-gradient(120deg, #001935, #106eea 5%, #2064C5 90%, #001935);
 }
@@ -159,112 +217,6 @@
   line-height: 1.6;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
-}
-
-.site-footer {
-  position: relative;
-  background: white;
-}
-.site-footer:after {
-  content: "";
-  display: inline-block;
-  width: 100vw;
-  height: 5px;
-  position: absolute;
-  background: linear-gradient(45deg, black, transparent, #9a9a9a, black);
-  top: -1px;
-}
-
-.footer-links h4 {
-  display: inline-block;
-  position: relative;
-  margin-bottom: 16px;
-}
-.footer-links h4:after {
-  content: "";
-  left: 0;
-  bottom: -0.25rem;
-  width: 120%;
-  height: 3px;
-  position: absolute;
-  background: #279e00;
-}
-
-.fsocial-icon {
-  font-size: 25px;
-  display: inline-block;
-  background: #106eea;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 4px;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-.fsocial-icon:hover {
-  background: #3b8af2;
-  color: #fff;
-}
-
-#body {
-  background: linear-gradient(120deg, #fafafa, #fdfdfd, #fff, #fdfdfd, #fafafa);
-  background: linear-gradient(120deg, #fff, #fefeff, #FBFAFA, #fff);
-}
-
-.main {
-  padding-top: 1200px;
-}
-@media (min-width: 768px) {
-  .main {
-    padding-top: 550px;
-  }
-}
-
-.section-title h2 {
-  font-size: 13px;
-  letter-spacing: 1px;
-  font-weight: 700;
-  padding: 8px 20px;
-  margin: 0;
-  background: #e7f1fd;
-  color: #106eea;
-  display: inline-block;
-  text-transform: uppercase;
-  border-radius: 50px;
-}
-
-.section-title h3 {
-  font-size: 32px;
-  font-weight: 700;
-}
-
-.missionbg {
-  background: url(http://localhost/assets/img/ABSA-LOGO-Plane-NON-VECTOR.png), linear-gradient(black, black);
-  background-attachment: fixed;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.clients {
-  padding: 15px 0;
-  text-align: center;
-  background-color: #f6f9fe;
-}
-
-.clients img {
-  max-width: 80%;
-  transition: all 0.4s ease-in-out;
-  display: inline-block;
-  padding: 15px 0;
-  transition: transform 0.6s;
-}
-
-.clients img:hover {
-  transform: scale(1.1);
 }
 
 .flip-card {
@@ -327,4 +279,52 @@
 .flip-button:hover {
   color: white;
   background-color: #00247e;
+}
+
+.site-footer {
+  position: relative;
+  background: white;
+}
+.site-footer:after {
+  content: "";
+  display: inline-block;
+  width: 100vw;
+  height: 5px;
+  position: absolute;
+  background: linear-gradient(45deg, black, transparent, #9a9a9a, black);
+  top: -1px;
+}
+
+.footer-links h4 {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 16px;
+}
+.footer-links h4:after {
+  content: "";
+  left: 0;
+  bottom: -0.25rem;
+  width: 120%;
+  height: 3px;
+  position: absolute;
+  background: #279e00;
+}
+
+.fsocial-icon {
+  font-size: 25px;
+  display: inline-block;
+  background: #106eea;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+.fsocial-icon:hover {
+  background: #3b8af2;
+  color: #fff;
 }

@@ -1,32 +1,14 @@
-
 #body {
     background: linear-gradient(120deg, #fafafa, #fdfdfd, #fff, #fdfdfd, #fafafa);
     background: linear-gradient(120deg, #fff, #fefeff, #FBFAFA, #fff);
 }
 
-.main {
+// home page
+#home.main {
     padding-top: 1200px;
     @include above(768) {
         padding-top: 550px;
     }
-}
-
-.section-title h2 {
-    font-size: 13px;
-    letter-spacing: 1px;
-    font-weight: 700;
-    padding: 8px 20px;
-    margin: 0;
-    background: #e7f1fd;
-    color: #106eea;
-    display: inline-block;
-    text-transform: uppercase;
-    border-radius: 50px;
-}
-
-.section-title h3 {
-    font-size: 32px;
-    font-weight: 700;
 }
 
 .missionbg {
@@ -35,29 +17,4 @@
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
-}
-
-.clients {
-    padding: 15px 0;
-    text-align: center;
-    background-color: #f6f9fe;
-}
-
-// .clients .flex {
-//     transform-style: preserve-3d;
-//     -webkit-font-smoothing: subpixel-antialiased;
-//     perspective: 1000px;
-// }
-
-.clients img {
-    max-width: 80%;
-    transition: all 0.4s ease-in-out;
-    display: inline-block;
-    padding: 15px 0;
-    transition: transform 0.6s;
-    // transform: translateZ(50px);
-}
-
-.clients img:hover {
-    transform: scale(1.1);
 }
