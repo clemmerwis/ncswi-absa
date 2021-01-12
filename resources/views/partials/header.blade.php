@@ -1,4 +1,4 @@
-<header class="shadow border-bottom relative">
+<header class="shadow relative">
 
     <div class="topbar">
         <div class="container mx-auto text-white flex items-center justify-between px-6 md:px-0">
@@ -13,11 +13,8 @@
             </div>
 
             <div class="flex py-2 text-sm">
-                <div class="login border-r pr-6">
+                <div class="login">
                     <a href="#">Login</a>
-                </div>
-                <div class="social-links pl-6">
-                    <a href="#" class="facebook"><i class="icofont-facebook">f</i></a>
                 </div>
             </div>
 
@@ -25,13 +22,14 @@
     </div>
 
     <div class="logo-nav text-white border-b-2 border-secondaryorange">
+
         <div x-data="{ isOpen: false }" class="container mx-auto px-6 md:px-0">
             <div class="logo flex-col py-8">
                 <div class="flex justify-center">
                     <h1 class="inline-flex"><a href="#" class="text-2xl hover:text-blue-900">American Board of Surgical Assistants</a></h1>
                 </div>
                 <div class="flex justify-center">
-                    <p class="inline-flex transform translate-x-1/2 pt-3">Surgical assistants for the &nbsp;<span class="bluegradtext italic">21st century</span></p>
+                    <p class="inline-flex transform md:translate-x-1/2 pt-3">Surgical assistants for the &nbsp;<span class="bluegradtext italic">21st century</span></p>
                 </div>
             </div>
 
@@ -77,13 +75,13 @@
                     </li>
                 </ul>
                 
-                <button type="button" class="mobile-button font-semibold hover:text-highlightblue transition duration-300 ease-in-out focus:outline-none focus:text-highlightblue" aria-label="toggle menu" @click="isOpen = !isOpen">
+                <button @click="isOpen = !isOpen" type="button" class="mobile-button font-semibold hover:text-highlightblue transition duration-300 ease-in-out focus:outline-none focus:text-highlightblue" aria-label="toggle menu">
                     <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
                         <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
                     </svg>
                 </button>
 
-                <div :class="isOpen ? 'show' : 'hidden'" @click.away="isOpen = false" class="transition duration-300 ease-in-out rightmenu-mobile absolute top-0 left-0 w-full bg-black mt-8 rounded-b">
+                <div @click.away="isOpen = false" :class="isOpen ? 'show' : 'hidden'" class="transition duration-300 ease-in-out rightmenu-mobile absolute top-0 left-0 w-full bg-black mt-8 rounded-b">
                     <ul class="flex justify-end">
                         <li class="py-3 list-none">
                             <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">About</a>
@@ -101,5 +99,6 @@
                 </div>
             </div>
         </div>
+
     </div>
 </header>

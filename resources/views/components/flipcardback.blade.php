@@ -8,6 +8,6 @@
     </ul>
 
     <div class="w-full flex-auto flex items-center justify-center">
-        <a class="flip-button inline-block leading-none py-3 px-6 rounded" href="{{ route($route) }}">Read More</a>
+        <a class="flip-button inline-block leading-none py-3 px-6 rounded zed-1" href="{{ route($route) }}">Read More</a>
     </div>
 </div>

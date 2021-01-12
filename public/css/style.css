@@ -57,6 +57,61 @@
   -webkit-text-fill-color: transparent;
 }
 
+.parallax-caduceus {
+  /* The image used */
+  background-image: url(http://localhost/assets/img/ABSA-LOGO-Plane-NON-VECTOR.png);
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.title-1 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #e7f1fd;
+  color: #106eea;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  line-height: 1.2;
+}
+
+.title-2 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
+}
+
+.title-3 {
+  font-weight: 600;
+  font-size: 26px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
+}
+
+.para-big {
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.subhead {
+  font-weight: bold;
+  font-size: 200%;
+  margin-right: 0.05em;
+}
+
+.subhead-sm {
+  font-weight: bold;
+  font-size: 150%;
+  margin-right: 0.01em;
+}
+
 .topbar {
   background: linear-gradient(120deg, #001935, #106eea 5%, #2064C5 90%, #001935);
 }
@@ -74,71 +129,17 @@
 .logo-nav {
   position: relative;
   background: linear-gradient(170deg, #111827, #0e3158, #0e3158, #0e3158);
-}
-
-.site-footer {
-  position: relative;
-}
-.site-footer:after {
-  content: "";
-  display: inline-block;
-  width: 93vw;
-  height: 1.5px;
-  position: absolute;
-  background: white;
-  top: 0;
-}
-
-#body {
-  background: linear-gradient(120deg, #fafafa, #fff, #fdfdfd, #fff, #fefefe, #fdfdfd, #fafafa, #fff, #fefefe, #fff);
-}
-
-.logo h1 {
-  font-size: 24px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  letter-spacing: 0.8px;
-  font-family: "Poppins", sans-serif;
-}
-
-.topbar {
-  background: linear-gradient(120deg, #001935, #106eea 5%, #2064C5 90%, #001935);
-}
-
-.site-footer {
-  position: relative;
-}
-.site-footer:after {
-  content: "";
-  display: inline-block;
-  width: 93vw;
-  height: 1.5px;
-  position: absolute;
-  background: white;
-  top: 0;
-}
-
-.logo-nav {
-  position: relative;
-  background: linear-gradient(170deg, #111827, #0e3158, #0e3158, #0e3158);
-}
-
-.main {
-  padding-top: 1200px;
-}
-@media (min-width: 768px) {
-  .main {
-    padding-top: 550px;
-  }
 }
 
 .hero {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.98) 40%, rgba(0, 0, 0, 0.11)), url(http://localhost/assets/img/Optimized-proud.jpg) no-repeat;
-  background-position: right;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.98) 20%, rgba(0, 0, 0, 0.11)), url(http://localhost/assets/img/Optimized-proud.jpg) no-repeat right;
   max-height: 337px;
   height: 50vh;
+}
+@media (min-width: 768px) {
+  .hero {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.98) 40%, rgba(0, 0, 0, 0.11)), url(http://localhost/assets/img/Optimized-proud.jpg) no-repeat right;
+  }
 }
 @media (min-width: 1536px) {
   .hero {
@@ -160,12 +161,117 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.site-footer {
+  position: relative;
+  background: white;
+}
+.site-footer:after {
+  content: "";
+  display: inline-block;
+  width: 100vw;
+  height: 5px;
+  position: absolute;
+  background: linear-gradient(45deg, black, transparent, #9a9a9a, black);
+  top: -1px;
+}
+
+.footer-links h4 {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 16px;
+}
+.footer-links h4:after {
+  content: "";
+  left: 0;
+  bottom: -0.25rem;
+  width: 120%;
+  height: 3px;
+  position: absolute;
+  background: #279e00;
+}
+
+.fsocial-icon {
+  font-size: 25px;
+  display: inline-block;
+  background: #106eea;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+.fsocial-icon:hover {
+  background: #3b8af2;
+  color: #fff;
+}
+
+#body {
+  background: linear-gradient(120deg, #fafafa, #fdfdfd, #fff, #fdfdfd, #fafafa);
+  background: linear-gradient(120deg, #fff, #fefeff, #FBFAFA, #fff);
+}
+
+.main {
+  padding-top: 1200px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-top: 550px;
+  }
+}
+
+.section-title h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #e7f1fd;
+  color: #106eea;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.section-title h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.missionbg {
+  background: url(http://localhost/assets/img/ABSA-LOGO-Plane-NON-VECTOR.png), linear-gradient(black, black);
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.clients {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #f6f9fe;
+}
+
+.clients img {
+  max-width: 35%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.clients img:hover {
+  transform: scale(1.15);
+}
+
 .flip-card {
   background-color: transparent;
 }
 
-.flip-title {
-  transform: translateZ(200px);
+.zed-1 {
+  transform: translateZ(140px);
 }
 
 .flip-card-inner {
@@ -186,12 +292,12 @@
   height: 100%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 
 .flip-card-front {
   background: white;
   color: black;
-  transform-style: preserve-3d;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
