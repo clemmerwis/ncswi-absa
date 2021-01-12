@@ -43,13 +43,21 @@
     background-color: #f6f9fe;
 }
 
+// .clients .flex {
+//     transform-style: preserve-3d;
+//     -webkit-font-smoothing: subpixel-antialiased;
+//     perspective: 1000px;
+// }
+
 .clients img {
-    max-width: 35%;
+    max-width: 80%;
     transition: all 0.4s ease-in-out;
     display: inline-block;
     padding: 15px 0;
+    transition: transform 0.6s;
+    // transform: translateZ(50px);
 }
 
 .clients img:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
