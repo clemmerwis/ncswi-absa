@@ -23,7 +23,7 @@
 
     <div class="logo-nav text-white border-b-2 border-secondaryorange">
 
-        <div x-data="{ isOpen: false }" class="container mx-auto px-6 md:px-0">
+        <div class="container mx-auto px-6 md:px-0">
             <div class="logo flex-col py-8">
                 <div class="flex justify-center">
                     <h1 class="inline-flex"><a href="#" class="text-2xl hover:text-blue-900">American Board of Surgical Assistants</a></h1>
@@ -59,7 +59,7 @@
                 </div>
             </div>
 
-            <div class="mobile-menus flex md:hidden relative pb-2 justify-between">
+            <div x-data="{ isOpen: false }" class="mobile-menus flex md:hidden relative pb-2 justify-between">
                 <ul class="leftmenu-mobile flex">
                     <li class="list-none">
                         <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">Home</a>
@@ -81,7 +81,15 @@
                     </svg>
                 </button>
 
-                <div @click.away="isOpen = false" :class="isOpen ? 'show' : 'hidden'" class="transition duration-300 ease-in-out rightmenu-mobile absolute top-0 left-0 w-full bg-black mt-8 rounded-b">
+                <div @click.away="isOpen = false" 
+                    x-show="isOpen" 
+                    x-transition:enter="transition ease-out duration-300"
+                    x-transition:enter-start="translate-y-3 opacity-0 transform"
+                    x-transition:enter-end="translate-y-0 opacity-100 transform"
+                    x-transition:leave="transition ease-in duration-300"
+                    x-transition:leave-start="translate-y-0 opacity-100 transform"
+                    x-transition:leave-end="translate-y-3 opacity-0 transform"
+                    class="rightmenu-mobile absolute w-full bg-black mt-8 rounded-b">
                     <ul class="flex justify-end">
                         <li class="py-3 list-none">
                             <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">About</a>
