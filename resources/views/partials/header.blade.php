@@ -36,9 +36,9 @@
             <div class="desktop-menus hidden md:flex justify-between">
                 <ul class="leftmenu-desktop flex">
                     <x-dtopleft-navitem route="home">Home</x-dtopleft-navitem>
-                    <x-dtopleft-navitem class="pl-8" route="usermenu">User Menu</x-dtopleft-navitem>
-                    <x-dtopleft-navitem class="pl-8" route="home">Job Board</x-dtopleft-navitem>
-                    <x-dtopleft-navitem class="pl-8" route="home">Store</x-dtopleft-navitem>
+                    <x-dtopleft-navitem class="pl-8">User Menu</x-dtopleft-navitem>
+                    <x-dtopleft-navitem class="pl-8" route="jboard">Job Board</x-dtopleft-navitem>
+                    <x-dtopleft-navitem class="pl-8" route="store">Store</x-dtopleft-navitem>
                 </ul>
 
                 <div class="hidden md:flex items-center">

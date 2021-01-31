@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('pages.index');
 })->name('home');
 
-Route::get('/usermenu', function () {
+Route::get('/jboard', function () {
+    return view('pages.jboard');
+})->name('jboard');
+
+Route::get('/store', function () {
     return view('pages.usermenu');
-})->name('usermenu');
+})->name('store');
