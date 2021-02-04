@@ -1,112 +1,272 @@
-<header class="shadow relative">
+	<!--==================================================-->
+	<!----- Start Techno Header Top Menu Area Css ----->
+	<!--==================================================-->
+	<div class="header_top_menu pt-2 pb-2 bg_color">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-sm-8">
+					<div class="header_top_menu_address">
+						<div class="header_top_menu_address_inner">
+							<ul>
+								<li><a href="#"><i class="fa fa-envelope-o"></i>info@absa.com</a></li>
+								<li><a href="#"><i class="fa fa-map-marker"></i>4951 Hidden Lakes Dr, Harshaw, WI 54529</a></li>
+								<li><a href="#"><i class="fa fa-phone"></i>877-617-8345</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4">
+					<div class="header_top_menu_icon">
+						<div class="header_top_menu_icon_inner">
+							<ul>
+								<li><a href="#"><i class="fa fa-sing-in"></i>Login</a></li>
+								<!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!----- End	Techno Header Top Menu Area Css ----->
+	<!--===================================================-->
 
-    <div class="topbar">
-        <div class="container mx-auto text-white flex items-center justify-between px-6 md:px-0">
+	<!--==================================================-->
+	<!----- Start Techno Main Menu Area ----->
+	<!--==================================================-->
+	<div id="sticky-header" class="techno_nav_manu d-md-none d-lg-block d-sm-none d-none">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="logo mt-4">
+						<a class="logo_img" href="index.html" title="techno">
+							<img src="assets/images/absa/rsz_1rsz_absa-logo-34height.png" alt="" />
+						</a>
+						<a class="main_sticky" href="index.html" title="techno">
+							<img src="assets/images/absa/rsz_1rsz_absa-logo-34height.png" alt="astute" />
+						</a>
+					</div>
+				</div>
+				<div class="col-md-9">
+					<nav class="techno_menu">
+						<ul class="nav_scroll">
+							<li><a href="#home">Home</a></li>
+							<li><a href="index.html">User Menu</a>
+								<ul class="sub-menu">
+									<li><a href="#new-demo.html">Verification Database</a></li>
+									<li><a href="index-2.html">Elligibility Information</a>
+										<ul class="sub-menu">
+											<li><a href="index-11.html">Inititial Exam elligibility requirements</a></li>	
+											<li><a href="index-12.html">Recertification elligibility requirements</a></li>
+										</ul>
+									</li>
+									<li><a href="index-3.html">Registration Applications</a>
+										<ul class="sub-menu">
+											<li><a href="index-11.html">Inititial Application</a></li>	
+											<li><a href="index-12.html">Recertification Application</a></li>
+											<li><a href="index-12.html">Retest Application</a></li>
+										</ul>
+									</li>
+									<li><a href="index-4.html">Forms &amp; Checklists</a>
+										<ul class="sub-menu">
+											<li><a href="index-11.html">Forms</a>
+												<ul class="sub-menu">
+													<li><a href="index-11.html">Recertification forms</a></li>	
+													<li><a href="index-12.html">Manual skills assessments forms</a></li>
+												</ul>
+											</li>	
+											<li><a href="index-12.html">Required Documents Checklist</a>
+												<ul class="sub-menu">
+													<li><a href="index-11.html">Inititial exam</a></li>	
+													<li><a href="index-12.html">Recertification exam</a></li>
 
-            <div class="flex contact-info py-2">
-                <div class="inline-flex text-sm">
-                    <i class="icofont-envelope"></i> <a class="text-sm hover:underline" href="mailto:office@absa.com">contact@example.com</a>
-                </div>
-                <div class="inline-flex text-sm">
-                    <i class="icofont-phone pl-8"></i> +1 5589 55488 55
-                </div>
-            </div>
+												</ul>
+											</li>
+											<li><a href="index-12.html">Fee Schedule</a></li>
+										</ul>
+									</li>
+									<li><a href="index-5.html">Code of Ethics</a></li>
+									<li><a href="index-6.html">Examination Outline</a></li>
+									<li><a href="index-7.html">Training &amp; Prep Courses</a>
+										<ul class="sub-menu">
+											<li><a href="index-8.html">ACESA</a></li>
+											<li><a href="index-9.html">RASA</a></li>
+											<li><a href="index-10.html">Surgical Skills</a></li>
+											<li><a href="index-10.html">SSF/HIU</a></li>
+										</ul>
+									</li>
+									<li><a href="index-6.html">History and Statistics</a></li>
+									<li><a href="#company.html">Definitions</a>
+										<ul class="sub-menu">
+											<li><a href="about.html">Surgical Assistant Titles</a></li>
+											<li><a href="about-2.html">ACS & AMA</a></li>
+											<li><a href="about-3.html">HIPAA</a></li>
+											<li><a href="team.html">Scope of Practice</a></li>
+											<li><a href="team-details.html">United States Department of Labor</a></li>
+										</ul>
+									</li>
+									<li><a href="#service.html">Helpful Information Links</a>
+										<ul class="sub-menu">
+											<li><a href="about.html">State Licensure</a>
+												<ul class="sub-menu">
+													<li><a href="">Illinois</a></li>
+													<li><a href="">Texas</a></li>
+													<li><a href="">Distric of Coumbia</a></li>
+												</ul>
+											</li>
+											<li><a href="about-2.html">State Societies</a>
+												<ul class="sub-menu">
+													<li><a href="">Illinois</a></li>
+												</ul>
+											</li>
+											<li><a href="about-3.html">Corporate Sponsorship Options</a></li>
+											<li><a href="team.html">Medical Billing Services</a></li>
+											<li><a href="team-details.html">Liability Insurance</a></li>
+											<li><a href="team-details.html">CME Links</a>
+												<ul class="sub-menu">
+													<li><a href="">Medscape</a></li>
+													<li><a href="">Freecme</a></li>
+													<li><a href="">NetCE</a></li>
+													<li><a href="">MyCME</a></li>
+												</ul>
+											</li>
+											<li><a href="team-details.html">Other Allied Health Training Programs</a></li>
+											<li><a href="team-details.html">NPI Information</a></li>
+											<li><a href="team-details.html">Salaries</a></li>
+										</ul>
+									</li>
+									<li><a href="team-details.html">Store</a></li>
+									<li><a href="team-details.html">FAQ's</a></li>
+									<li><a href="team-details.html">Governance (top aslo on right by contact)</a>
+										<ul class="sub-menu">
+											<li><a href="team-details.html">Executive Directors &amp; Staff</a></li>
+											<li><a href="team-details.html">Board of Directors</a></li>
+											<li><a href="team-details.html">Medical Advisors</a></li>
+											<li><a href="team-details.html">Support & Development Services</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#home">Helpful Links</a></li>
+							<li><a href="#home">FAQ</a></li>
+							<li><a href="#home">Governance</a></li>
+							<li><a href="#home">Contact</a></li>
+						</ul>			
+					</nav>
+					
+				</div>
+		</div>
+		</div>
+	</div>
+	
+	<!----- Techno Mobile Menu Area ----->
+	<div class="mobile-menu-area d-sm-block d-md-block d-lg-none ">
+		<div class="mobile-menu">
+			<nav class="techno_menu">
+				<ul class="nav_scroll">
+					<li><a href="#home">Home</a>
+					<li><a href="index.html">User Menu</a>
+						<ul class="sub-menu">
+							<li><a href="#new-demo.html">Verification Database</a></li>
+							<li><a href="index-2.html">Elligibility Information</a>
+								<ul class="sub-menu">
+									<li><a href="index-11.html">Inititial Exam elligibility requirements</a></li>	
+									<li><a href="index-12.html">Recertification elligibility requirements</a></li>
+								</ul>
+							</li>
+							<li><a href="index-3.html">Registration Applications</a>
+								<ul class="sub-menu">
+									<li><a href="index-11.html">Inititial Application</a></li>	
+									<li><a href="index-12.html">Recertification Application</a></li>
+									<li><a href="index-12.html">Retest Application</a></li>
+								</ul>
+							</li>
+							<li><a href="index-4.html">Forms &amp; Checklists</a>
+								<ul class="sub-menu">
+									<li><a href="index-11.html">Forms</a>
+										<ul class="sub-menu">
+											<li><a href="index-11.html">Recertification forms</a></li>	
+											<li><a href="index-12.html">Manual skills assessments forms</a></li>
+										</ul>
+									</li>	
+									<li><a href="index-12.html">Required Documents Checklist</a>
+										<ul class="sub-menu">
+											<li><a href="index-11.html">Inititial exam</a></li>	
+											<li><a href="index-12.html">Recertification exam</a></li>
 
-            <div class="flex py-2 text-sm">
-                <div class="login">
-                    <a href="#">Login</a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="logo-nav text-white border-b-2 border-secondaryorange">
-
-        <div class="container mx-auto px-6 md:px-0">
-            <div class="logo flex-col py-8">
-                <div class="flex justify-center">
-                    <h1 class="inline-flex"><a href="#" class="text-2xl hover:text-blue-900">American Board of Surgical Assistants</a></h1>
-                </div>
-                <div class="flex justify-center">
-                    <p class="inline-flex transform md:translate-x-1/2 pt-3">Surgical assistants for the &nbsp;<span class="bluegradtext italic">21st century</span></p>
-                </div>
-            </div>
-
-            <div class="desktop-menus hidden md:flex justify-between">
-                <ul class="leftmenu-desktop flex">
-                    <x-dtopleft-navitem route="home">Home</x-dtopleft-navitem>
-                    <x-dtopleft-navitem class="pl-8">User Menu</x-dtopleft-navitem>
-                    <x-dtopleft-navitem class="pl-8" route="jboard">Job Board</x-dtopleft-navitem>
-                    <x-dtopleft-navitem class="pl-8" route="store">Store</x-dtopleft-navitem>
-                </ul>
-
-                <div class="hidden md:flex items-center">
-                    <ul class="rightmenu-desktop flex">
-                        <li class="py-4 list-none">
-                            <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">About</a>
-                        </li>
-                        <li class="py-4 pl-8 list-none">
-                            <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">FAQ</a>
-                        </li>
-                        <li class="py-4 pl-8 list-none">
-                            <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">Helpful Links</a>
-                        </li>
-                        <li class="py-4 pl-8 list-none">
-                            <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div x-data="{ isOpen: false }" class="mobile-menus flex md:hidden relative pb-2 justify-between">
-                <ul class="leftmenu-mobile flex">
-                    <li class="list-none">
-                        <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">Home</a>
-                    </li>
-                    <li class="pl-8 list-none">
-                        <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">User Menu</a>
-                    </li>
-                    <li class="pl-8 list-none">
-                        <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">Job Board</a>
-                    </li>
-                    <li class="pl-8 list-none">
-                        <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">Store</a>
-                    </li>
-                </ul>
-                
-                <button @click="isOpen = !isOpen" type="button" class="mobile-button font-semibold hover:text-highlightblue transition duration-300 ease-in-out focus:outline-none focus:text-highlightblue" aria-label="toggle menu">
-                    <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
-                        <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
-                    </svg>
-                </button>
-
-                <div @click.away="isOpen = false" 
-                    x-show="isOpen" 
-                    x-transition:enter="transition ease-out duration-300"
-                    x-transition:enter-start="translate-y-3 opacity-0 transform"
-                    x-transition:enter-end="translate-y-0 opacity-100 transform"
-                    x-transition:leave="transition ease-in duration-300"
-                    x-transition:leave-start="translate-y-0 opacity-100 transform"
-                    x-transition:leave-end="translate-y-3 opacity-0 transform"
-                    class="rightmenu-mobile absolute w-full bg-black mt-8 rounded-b">
-                    <ul class="flex justify-end">
-                        <li class="py-3 list-none">
-                            <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">About</a>
-                        </li>
-                        <li class="py-3 pl-6 list-none">
-                            <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">FAQ</a>
-                        </li>
-                        <li class="py-3 pl-6 list-none">
-                            <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">Helpful Links</a>
-                        </li>
-                        <li class="py-3 px-6 list-none">
-                            <a class="font-semibold hover:text-highlightblue transition duration-300 ease-in-out" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</header>
+										</ul>
+									</li>
+									<li><a href="index-12.html">Fee Schedule</a></li>
+								</ul>
+							</li>
+							<li><a href="index-5.html">Code of Ethics</a></li>
+							<li><a href="index-6.html">Examination Outline</a></li>
+							<li><a href="index-7.html">Training &amp; Prep Courses</a>
+								<ul class="sub-menu">
+									<li><a href="index-8.html">ACESA</a></li>
+									<li><a href="index-9.html">RASA</a></li>
+									<li><a href="index-10.html">Surgical Skills</a></li>
+									<li><a href="index-10.html">SSF/HIU</a></li>
+								</ul>
+							</li>
+							<li><a href="index-6.html">History and Statistics</a></li>
+							<li><a href="#company.html">Definitions</a>
+								<ul class="sub-menu">
+									<li><a href="about.html">Surgical Assistant Titles</a></li>
+									<li><a href="about-2.html">ACS & AMA</a></li>
+									<li><a href="about-3.html">HIPAA</a></li>
+									<li><a href="team.html">Scope of Practice</a></li>
+									<li><a href="team-details.html">United States Department of Labor</a></li>
+								</ul>
+							</li>
+							<li><a href="#service.html">Helpful Information Links</a>
+								<ul class="sub-menu">
+									<li><a href="about.html">State Licensure</a>
+										<ul class="sub-menu">
+											<li><a href="">Illinois</a></li>
+											<li><a href="">Texas</a></li>
+											<li><a href="">Distric of Coumbia</a></li>
+										</ul>
+									</li>
+									<li><a href="about-2.html">State Societies</a>
+										<ul class="sub-menu">
+											<li><a href="">Illinois</a></li>
+										</ul>
+									</li>
+									<li><a href="about-3.html">Corporate Sponsorship Options</a></li>
+									<li><a href="team.html">Medical Billing Services</a></li>
+									<li><a href="team-details.html">Liability Insurance</a></li>
+									<li><a href="team-details.html">CME Links</a>
+										<ul class="sub-menu">
+											<li><a href="">Medscape</a></li>
+											<li><a href="">Freecme</a></li>
+											<li><a href="">NetCE</a></li>
+											<li><a href="">MyCME</a></li>
+										</ul>
+									</li>
+									<li><a href="team-details.html">Other Allied Health Training Programs</a></li>
+									<li><a href="team-details.html">NPI Information</a></li>
+									<li><a href="team-details.html">Salaries</a></li>
+								</ul>
+							</li>
+							<li><a href="team-details.html">Store</a></li>
+							<li><a href="team-details.html">FAQ's</a></li>
+							<li><a href="team-details.html">Governance (top aslo on right by contact)</a>
+								<ul class="sub-menu">
+									<li><a href="team-details.html">Executive Directors &amp; Staff</a></li>
+									<li><a href="team-details.html">Board of Directors</a></li>
+									<li><a href="team-details.html">Medical Advisors</a></li>
+									<li><a href="team-details.html">Support & Development Services</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!----- End Techno Main Menu Area ----->
+	<!--==================================================-->
