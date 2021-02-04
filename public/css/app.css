@@ -1,0 +1,17 @@
+.clients {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #f6f9fe;
+}
+
+.clients img {
+  max-width: 80%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  transition: transform 0.6s;
+}
+
+.clients img:hover {
+  transform: scale(1.1);
+}
