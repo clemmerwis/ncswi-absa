@@ -301,42 +301,42 @@ a.dtbtn:hover {
 --<	Techno Slider Area Css -->
 ======================================================*/
 .slider1 {
-    background-image: url(/assets/images/slider/slider-1.png);
+    background-image: url(../images/slider/slider-1.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 900px;
 }
 .slider2 {
-    background-image: url(/assets/images/slider/slider-2.png);
+    background-image: url(../images/slider/slider-2.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 900px;
 }
 .slider3 {
-    background-image: url(/assets/images/slider/slider-3.png);
+    background-image: url(../images/slider/slider-3.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 900px;
 }
 .slider4 {
-    background-image: url(/assets/images/slider/slider-5.jpg);
+    background-image: url(../images/slider/slider-5.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 900px;
 }
 .slider5 {
-    background-image: url(/assets/images/slider/slider-8.jpg);
+    background-image: url(../images/slider/slider-8.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 900px;
 }
 .slider6 {
-    background-image: url(/assets/images/slider/slider-4.jpg);
+    background-image: url(../images/slider/slider-4.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -344,7 +344,7 @@ a.dtbtn:hover {
 	position:relative;
 }
 .slider7 {
-    background-image: url(/assets/images/slider/slider-6.jpg);
+    background-image: url(../images/slider/slider-6.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -352,7 +352,7 @@ a.dtbtn:hover {
 	position:relative;
 }
 .slider8 {
-    background-image: url(/assets/images/slider/slider-9.png);
+    background-image: url(../images/slider/slider-9.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -360,7 +360,7 @@ a.dtbtn:hover {
 	position:relative;
 }
 .slider9 {
-    background-image: url(/assets/images/slider/slider-11.jpg);
+    background-image: url(../images/slider/slider-11.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -368,7 +368,7 @@ a.dtbtn:hover {
 	position:relative;
 }
 .slider9 {
-    background-image: url(/assets/images/slider/slider-11.jpg);
+    background-image: url(../images/slider/slider-11.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -376,7 +376,7 @@ a.dtbtn:hover {
 	position:relative;
 }
 .slider10 {
-    background-image: url(/assets/images/slider/slider-12.jpg);
+    background-image: url(../images/slider/slider-12.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -384,7 +384,7 @@ a.dtbtn:hover {
 	position:relative;
 }
 .slider11 {
-    background-image: url(/assets/images/slider/slider13.jpg);
+    background-image: url(../images/slider/slider13.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -392,7 +392,7 @@ a.dtbtn:hover {
 	position:relative;
 }
 .slider12 {
-    background-image: url(/assets/images/slider/slider14.jpg);
+    background-image: url(../images/slider/slider14.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
